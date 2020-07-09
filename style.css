@@ -5,7 +5,10 @@
     width: 198px;
     height: 59px;
 }
-.btn-link{
+.first-part{
+    padding-bottom: 50px;
+}
+.btn-success{
     border: none;
     background-color: #21B573;
     border-radius: 33px;
@@ -13,15 +16,17 @@
     width: 104px;
     color: white;
 }
+.btn-success:hover{
+    background-color: #21B573;
+}
+.btn-success:focus{
+    background-color: #21B573;
+}
 .row button{
     width: 153px;
 }
-.box-card img{
-    width: 80px;
-    height: 100px;
-}
 .box{
-    margin-top: 50px;
+    margin-top: 80px;
 }
 h5{
     color: #FD511A;
@@ -34,7 +39,7 @@ h5{
     border: none;
     border-radius: 10px;
     background-color: #F8FFFB;
-    height: 270px;
+    height: 300px;
 }
 .box-shadow{
     box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
@@ -60,6 +65,9 @@ h2{
     margin-top: 50px;
 }
 .card-img-top{
+    padding: 20px;
+}
+.long-card-img{
     padding: 20px;
 }
 .long-card{
